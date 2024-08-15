@@ -31,6 +31,8 @@ while True:
             ball.bounce()
             brick.hideturtle()
             bricks.remove(brick)
+    if len(bricks) == 0:
+        turtle.write("You Win", align="center", font=("Arial", 30, "normal"))
 
 
 
